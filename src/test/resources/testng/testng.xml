@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test runner" verbose="1" thread-count="1" parallel="false">
+
+    <test name="TestAndroid">
+
+        <parameter name="url" value="http://localhost:4723/wd/hub"/>
+
+        <packages>
+            <package name="com.belatrix.connect.*"/>
+        </packages>
+
+    </test>
+</suite>
