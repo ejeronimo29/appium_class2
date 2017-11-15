@@ -30,5 +30,5 @@ Feature: Like a user requests find a specific Contact
 
     Examples:
 
-      | username    | password | contact          | comment                                             | action                         | tag     |
-      | ejeronimo   | 123456   | Victoria Sanchez | this is a comment with love from an automation test | Help with process improvements | android |
+      | username    | password | contact          | comment           | action                         | tag     |
+      | ejeronimo   | 123456   | Victoria Sanchez | your are the best | Help with process improvements | android |
